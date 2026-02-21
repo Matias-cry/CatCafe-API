@@ -23,9 +23,10 @@ exports.login = (req, res) => {
 
     res.json({
       correo: user.correo,
-      rol: user.rol,
+      dni: user.dni,
       nombres: user.nombres,
       apellidos: user.apellidos,
+      rol: user.rol
     });
   });
 };
