@@ -21,3 +21,17 @@ module.exports = {
   createUser,
   getUserByCorreo,
 };
+
+const getAllUsers = (callback) => {
+  const sql = `
+    SELECT id, correo, dni, nombres, apellidos, rol
+    FROM users
+  `;
+  db.all(sql, [], callback);
+};
+
+module.exports = {
+  createUser,
+  getUserByCorreo,
+  getAllUsers
+};
