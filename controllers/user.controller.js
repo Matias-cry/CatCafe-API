@@ -1,4 +1,4 @@
-const User = require("../models/UserModel");
+const User = require("/models/UserModel");
 
 exports.register = (req, res) => {
   User.createUser(req.body, (err) => {
