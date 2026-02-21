@@ -23,7 +23,6 @@ exports.login = (req, res) => {
 
     res.json({
       correo: user.correo,
-      password: user.password,
       dni: user.dni,
       nombres: user.nombres,
       apellidos: user.apellidos,
