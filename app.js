@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
             <ul>
                 <li><strong>POST</strong> /api/users/register</li>
                 <li><strong>POST</strong> /api/users/login</li>
-                <li><strong>GET</strong> /api/users</li>
+                <li><strong>GET</strong> <a href="https://catcafe-api.onrender.com/api/users">/api/users<a></li>
             </ul>
         </div>
 
